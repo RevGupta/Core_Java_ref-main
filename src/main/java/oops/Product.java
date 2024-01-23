@@ -1,3 +1,5 @@
+package oops;
+
 public class Product {
     double price;
 

@@ -1,3 +1,4 @@
+package constructor_static_final;
 
 class Parent {
     int parentVariable;

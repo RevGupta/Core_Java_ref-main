@@ -1,3 +1,5 @@
+package loopconditions;
+
 public class AgeCondition {
     public static void main(String[] args) {
         int age = 16;

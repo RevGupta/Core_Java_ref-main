@@ -18,18 +18,7 @@ public class ReverseWord {
     public static String reverseWords(String inputString){
         if(inputString==null)
             return null;
-//        String[] array = inputString.split(" ");
-//        if(array.length == 0)
-//            return "";
-//        String outputString = "";
-//        StringBuffer stringBuffer;
-//
-//        for(int i=0;i< array.length-1;i++){
-//            stringBuffer = new StringBuffer(array[i]);
-//            outputString += stringBuffer.reverse().toString()+" ";
-//        }
-//        stringBuffer = new StringBuffer(array[array.length-1]);
-//        outputString += stringBuffer.reverse().toString();
+
         StringBuffer stringBuffer = new StringBuffer(inputString);
         String[] array = stringBuffer.reverse().toString().split(" ");
         if(array.length == 0)
@@ -37,7 +26,6 @@ public class ReverseWord {
         else if(array.length == 1)
             return  (new StringBuffer(inputString)).reverse().toString();
         else {
-            //System.out.println(array.length);
             String outputString = "";
             for(int i= array.length-1;i>=0;i--)
                 outputString += array[i]+" ";

@@ -1,4 +1,4 @@
-package com.cis;
+package constructor_static_final.com.cis;
 
 public class FinalExample {
     final int num = 10;

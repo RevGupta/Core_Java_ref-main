@@ -1,3 +1,5 @@
+package constructor_static_final;
+
 public class StatExample {
     static int num;
 

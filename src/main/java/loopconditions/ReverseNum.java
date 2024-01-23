@@ -1,3 +1,5 @@
+package loopconditions;
+
 import java.util.Scanner;
 
 public class ReverseNum {

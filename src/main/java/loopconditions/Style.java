@@ -1,3 +1,5 @@
+package loopconditions;
+
 public class Style {
     public static void main(String[] args) {
         printPattern();
